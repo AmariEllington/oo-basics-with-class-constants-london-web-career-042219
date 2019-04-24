@@ -14,8 +14,9 @@ class Shoe
   end
 
   def brand=(brand)
-      @brand = brand
+      self.@brand = brand
       BRANDS << brand=
-    end
   end
+
+
 end
